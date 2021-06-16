@@ -1,0 +1,9 @@
+zarr
+xarray
+numpy
+dask
+distributed
+imaxt-image
+bokeh
+panel
+holoviews
