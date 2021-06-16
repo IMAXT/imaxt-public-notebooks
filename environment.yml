@@ -8,10 +8,12 @@ dependencies:
  - numpy
  - dask
  - distributed
- - imaxt-image
  - bokeh
  - panel
  - holoviews
  - pandas
  - scipy
  - scikit-image
+ - pip
+ - pip:
+     - imaxt-image
