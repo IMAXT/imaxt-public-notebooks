@@ -1,5 +1,5 @@
 name: base
-channeks:
+channels:
  - conda-forge
  - default
 dependencies:
@@ -14,6 +14,9 @@ dependencies:
  - pandas
  - scipy
  - scikit-image
+ - numcodecs
+ - s3fs
+ - lz4
  - pip
  - pip:
      - imaxt-image
