@@ -1,9 +1,17 @@
-zarr
-xarray
-numpy
-dask
-distributed
-imaxt-image
-bokeh
-panel
-holoviews
+name: base
+channeks:
+ - conda-forge
+ - default
+dependencies:
+ - zarr
+ - xarray
+ - numpy
+ - dask
+ - distributed
+ - imaxt-image
+ - bokeh
+ - panel
+ - holoviews
+ - pandas
+ - scipy
+ - scikit-image
